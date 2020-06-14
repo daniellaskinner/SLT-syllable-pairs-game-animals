@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Animal syllable clapping pairs game</title>
+
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    
+    <script defer src="jQuery.js"></script>
+    <script defer src="functions.js"></script>
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Animal pairs: syllable clapping game!</h1>
+            <h1 class="questionMark"><a href="#footer" title="Click to view game instructions">&#63</a></h1>
+        </header>
+        <div class="sideBox sideBoxTurns">
+            <h3>Turns:</h3>
+            <div id="turnContainer">0</div>
+        </div>
+        <div class="sideBox sideBoxTimer">
+            <h3>Time:</h3>
+            <div id="timeContainer">00:00</div>
+        </div>
+        <main>
+            <div id="winScreen">
+                <div class="youWin">You Win!</div>
+                <p>You finished in <span id="totalTurns">0</span> turns</p>
+                <p>and it took you <span id="totalTime">00:00</span></p>
+                <a href="index.html">Play Again!</a>
+            </div>
+            <div class="card" id="card1"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card2"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card3"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card4"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card5"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card6"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card7"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card8"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card9"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card10"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card11"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card12"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card13"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card14"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card15"><img src="./images/question.jpg"/></div>
+            <div class="card" id="card16"><img src="./images/question.jpg"/></div>
+        </main>
+
+        <footer id="footer">
+            <h2>Game Instructions</h2>
+            <p>The aim of the game is to find all the matching <span>pairs</span>,</p>
+            <p>Click on a <span>square</span> to reveal an animal.</p>
+            <p>For each animal, clap out the number of <span>syllables</span> in the word!</p>
+            <p>When you have found a <span>matching</span> pair of animals, they will remain face up.</p>
+            <p>You have won the game once you have found all the animal pairs and clapped out all their syllables!</p>
+        </footer>
+
+    </div>
+</body>
+</html>

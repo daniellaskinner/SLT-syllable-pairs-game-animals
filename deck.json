@@ -1,0 +1,68 @@
+{
+  "animals" : [
+    {
+      "id" : "1",
+      "url" : "./images/caterpillar.png"
+    },
+    {
+      "id" : "2",
+      "url" : "./images/elephant.jpg"
+    },
+    {
+      "id" : "3",
+      "url" : "./images/dinosaur.jpg"
+    },
+    {
+      "id" : "4",
+      "url" : "./images/ladybird.png"
+    },
+    {
+      "id" : "5",
+      "url" : "./images/dolphin.png"
+    },
+    {
+      "id" : "6",
+      "url" : "./images/chicken.png"
+    },
+    {
+      "id" : "7",
+      "url" : "./images/parrot.jpg"
+    },
+    {
+      "id" : "8",
+      "url" : "./images/mouse.jpg"
+    },
+    {
+      "id" : "9",
+      "url" : "./images/caterpillar.png"
+    },
+    {
+      "id" : "10",
+      "url" : "./images/elephant.jpg"
+    },
+    {
+      "id" : "11",
+      "url" : "./images/dinosaur.jpg"
+    },
+    {
+      "id" : "12",
+      "url" : "./images/ladybird.png"
+    },
+    {
+      "id" : "13",
+      "url" : "./images/dolphin.png"
+    },
+    {
+      "id" : "14",
+      "url" : "./images/chicken.png"
+    },
+    {
+      "id" : "15",
+      "url" : "./images/parrot.jpg"
+    },
+    {
+      "id" : "16",
+      "url" : "./images/mouse.jpg"
+    }
+  ]
+}
