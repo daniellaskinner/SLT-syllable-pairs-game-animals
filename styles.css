@@ -185,3 +185,8 @@ footer span {
     color: #AFEEEE;
     font-weight: bold;
 }
+
+.copyright {
+    text-align: center;
+    padding-top: 40px;
+}
